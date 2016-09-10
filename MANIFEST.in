@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include die_master *.css
+recursive-include die_master *.csv
+recursive-include die_master *.html
+recursive-include die_master *.ico
+recursive-include die_master *.js
+recursive-include die_master *.json
+recursive-include die_master *.md
+recursive-include die_master *.png
+recursive-include die_master *.py
+recursive-include die_master *.svg
+recursive-include die_master *.txt
+recursive-exclude die_master *.pyc
